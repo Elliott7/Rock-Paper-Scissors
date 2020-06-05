@@ -8,10 +8,62 @@
         <link href="styles/style.css" type="text/css" rel="stylesheet">
 
     </head>
-
     <body>
+        <nav>
+            <section id="title">
+                <div>
+                    <h1 id="game-name">Rock Paper Scissors</h1>
+                </div>
+            </section>
+        </nav>
+        <main>
+            <section id="score-tally">
+                <div>
+                    User  
+                </div>
+                <div class="scorebox">
+                    <div class='user-score score'>
+                        0 
+                    </div>
+                    <div class='cpu-score score'>
+                        0
+                    </div>
+                </div>
+                <div>
+                    CPU  
+                </div>
 
+            </section>
+            <section id="select-options">
+                <div class="picture user-picture up1">
+                    <img src="images/rock2.png">
+                </div>
+                <div class="picture user-picture up2">
+                    <img src="images/paper2.png">
+                </div>
+                <div class="picture user-picture up3">
+                    <img src="images/scissors2.png">
+                </div>
+            </section>
+            <hr>
+            <section id='animation'>
+                <div class="picture auto-move animation1">
+                    <img id="change1" src="images/rock2.png">
+                </div>
+                <div class="picture flipped auto-move animation2">
+                    <img id="tochange" src="images/paper2.png">
+                </div>
 
+            </section>
+        </main>
+        <footer>
+            <section id="result">
+                <div class="result-box">
+                    <p>Result</p>
+                </div>
+            </section>
+
+        </footer>     
     <script src="scripts/main.js">
     </script>
     </body>
